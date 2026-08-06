@@ -4,7 +4,7 @@ A double-entry transaction ledger: money is an append-only log of postings, and 
 is the sum of that log. Every transaction writes two or more postings that sum to exactly
 zero, and PostgreSQL — not the application — is what refuses anything else.
 
-[![CI](https://github.com/Iyad-A/ledger-api/actions/workflows/ci.yml/badge.svg)](https://github.com/Iyad-A/ledger-api/actions/workflows/ci.yml)
+[![CI](https://github.com/Iyad-A/Ledger-api/actions/workflows/ci.yml/badge.svg)](https://github.com/Iyad-A/Ledger-api/actions/workflows/ci.yml)
 
 Python 3.12 · FastAPI · PostgreSQL 16 · SQLAlchemy 2.0 (async) · Alembic · pytest · Docker
 
